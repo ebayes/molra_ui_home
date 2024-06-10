@@ -71,9 +71,11 @@ export function Navigation() {
               </Link>
             </div>
           </nav>
-          <Button className="hidden h-10 font-semibold md:flex">
-            Login / Sign up
-          </Button>
+          
+              <Button className="hidden h-10 font-semibold md:flex" asChild>
+                <a href="http://localhost:3000/login">Login / Sign up</a>
+              </Button>
+         
           <div className="flex gap-x-2 md:hidden">
             <Button>Book demo</Button>
             <Button
