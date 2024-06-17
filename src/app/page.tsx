@@ -1,4 +1,3 @@
-import Features from "@/components/ui/Features"
 import { GlobalDatabase } from "@/components/ui/GlobalDatabase"
 import Hero from "@/components/ui/Hero"
 
@@ -9,8 +8,9 @@ export default function Home() {
       {/* <LogoCloud /> */}
       <GlobalDatabase />
       {/* <CodeExample /> */}
+      {/* 
       <Features />
-      {/* <Cta /> */}
+      <Cta /> */}
     </main>
   )
 }
