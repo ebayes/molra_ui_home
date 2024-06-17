@@ -182,18 +182,11 @@ export default function Footer() {
         </div>
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-gray-200 pt-8 sm:mt-20 sm:flex-row lg:mt-24 dark:border-gray-800">
           <p className="text-sm leading-5 text-gray-500 dark:text-gray-400">
-            &copy; {new Date().getFullYear()} Database, Inc. All rights
-            reserved.
+            &copy; {new Date().getFullYear()} MOLRA.
           </p>
-          <div className="rounded-full border border-gray-200 py-1 pl-1 pr-2 dark:border-gray-800">
+          <div className="rounded-full py-1 pl-1 pr-2 dark:border-gray-800">
             <div className="flex items-center gap-1.5">
-              <div className="relative size-4 shrink-0">
-                <div className="absolute inset-[1px] rounded-full bg-emerald-500/20 dark:bg-emerald-600/20" />
-                <div className="absolute inset-1 rounded-full bg-emerald-600 dark:bg-emerald-500" />
-              </div>
-              <span className="text-xs text-gray-700 dark:text-gray-50">
-                All systems operational
-              </span>
+              
             </div>
           </div>
         </div>
